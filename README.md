@@ -1,6 +1,22 @@
 # News-Summary-NLP-with-GUI - UPDATE
 
-Refresh Functionality:
+# Update - BERT-based Keyword Extraction:
+
+Integrated BERT embeddings for keyword extraction.
+Utilized the transformers library to load a pre-trained BERT model and tokenizer.
+Created a function (extract_keywords_bert) to extract keywords based on attention scores from BERT embeddings.
+Displayed the extracted keywords in the GUI under the "Keywords" section.
+Enhanced GUI:
+
+Added a new section for displaying extracted keywords.
+Adjusted the layout to accommodate the new "Keywords" section.
+Functionality:
+
+When the "Summarize" button is pressed, the code now not only provides a summary and sentiment analysis but also extracts and displays keywords from the news article.
+
+This addition enhances the news summarizer by incorporating keyword extraction using advanced neural network-based embeddings from BERT, providing more detailed insights into the main topics of the news articles.
+
+# Refresh Functionality:
 
 Old Version: The initial version lacked a mechanism to refresh the interface after summarization.
 Updated Version: A "Refresh" button (btn_refresh) has been added, allowing users to clear the interface and enter new URLs without restarting the application.
